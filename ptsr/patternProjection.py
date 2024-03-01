@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from PTSR.ptsr.BaseModel import *
+from KMRec.ptsr.BaseModel import*
 
 
 class PatternProjection(BaseModel):

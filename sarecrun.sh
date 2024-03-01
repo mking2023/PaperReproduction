@@ -1,0 +1,17 @@
+python main_case_study.py \
+	--epoch 200 \
+	--lr 0.0001 \
+	--batchsize 512 \
+	--batchsize_eval 512 \
+	--seed 2023 \
+	--gpu 2 \
+	--max_len 10 \
+	--hidden_units 128 \
+	--num_blocks 2 \
+	--num_head 1 \
+	--dropout_rate 0.2 \
+	--weight_decay 0.0000001 \
+	--model 'SASRec' \
+	--dataset "Beauty" \
+	--full_sort 0 \
+	--tune_param 0 \
